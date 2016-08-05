@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6405911D54769500652BAC /* objcObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405901D54769500652BAC /* objcObject.h */; };
+		FE6405911D54769500652BAC /* objcObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405901D54769500652BAC /* objcObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6405981D54769500652BAC /* objcObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64058D1D54769500652BAC /* objcObject.framework */; };
 		FE64059D1D54769500652BAC /* objcObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64059C1D54769500652BAC /* objcObjectTests.m */; };
+		FE6405AA1D5476C500652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6405A71D5476C500652BAC /* Cartfile */; };
+		FE6405AB1D5476C500652BAC /* objcObject.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6405A81D5476C500652BAC /* objcObject.podspec */; };
+		FE6405AF1D5476EA00652BAC /* NSObject+VDClass.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405AD1D5476EA00652BAC /* NSObject+VDClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6405B01D5476EA00652BAC /* NSObject+VDClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405AE1D5476EA00652BAC /* NSObject+VDClass.m */; };
+		FE6405B31D54773D00652BAC /* NSObject+VDSharedInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405B11D54773D00652BAC /* NSObject+VDSharedInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6405B41D54773D00652BAC /* NSObject+VDSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405B21D54773D00652BAC /* NSObject+VDSharedInstance.m */; };
+		FE6405B71D5477B100652BAC /* NSObject+VDPerform.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405B51D5477B100652BAC /* NSObject+VDPerform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6405B81D5477B100652BAC /* NSObject+VDPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405B61D5477B100652BAC /* NSObject+VDPerform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,15 @@
 		FE6405971D54769500652BAC /* objcObjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcObjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64059C1D54769500652BAC /* objcObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcObjectTests.m; sourceTree = "<group>"; };
 		FE64059E1D54769500652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6405A71D5476C500652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6405A81D5476C500652BAC /* objcObject.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcObject.podspec; sourceTree = "<group>"; };
+		FE6405A91D5476C500652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6405AD1D5476EA00652BAC /* NSObject+VDClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VDClass.h"; sourceTree = "<group>"; };
+		FE6405AE1D5476EA00652BAC /* NSObject+VDClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VDClass.m"; sourceTree = "<group>"; };
+		FE6405B11D54773D00652BAC /* NSObject+VDSharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VDSharedInstance.h"; sourceTree = "<group>"; };
+		FE6405B21D54773D00652BAC /* NSObject+VDSharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VDSharedInstance.m"; sourceTree = "<group>"; };
+		FE6405B51D5477B100652BAC /* NSObject+VDPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VDPerform.h"; sourceTree = "<group>"; };
+		FE6405B61D5477B100652BAC /* NSObject+VDPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VDPerform.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,9 @@
 				FE64058F1D54769500652BAC /* objcObject */,
 				FE64059B1D54769500652BAC /* objcObjectTests */,
 				FE64058E1D54769500652BAC /* Products */,
+				FE6405A71D5476C500652BAC /* Cartfile */,
+				FE6405A81D5476C500652BAC /* objcObject.podspec */,
+				FE6405A91D5476C500652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +93,12 @@
 			children = (
 				FE6405901D54769500652BAC /* objcObject.h */,
 				FE6405921D54769500652BAC /* Info.plist */,
+				FE6405AD1D5476EA00652BAC /* NSObject+VDClass.h */,
+				FE6405AE1D5476EA00652BAC /* NSObject+VDClass.m */,
+				FE6405B11D54773D00652BAC /* NSObject+VDSharedInstance.h */,
+				FE6405B21D54773D00652BAC /* NSObject+VDSharedInstance.m */,
+				FE6405B51D5477B100652BAC /* NSObject+VDPerform.h */,
+				FE6405B61D5477B100652BAC /* NSObject+VDPerform.m */,
 			);
 			path = objcObject;
 			sourceTree = "<group>";
@@ -93,7 +119,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405B31D54773D00652BAC /* NSObject+VDSharedInstance.h in Headers */,
 				FE6405911D54769500652BAC /* objcObject.h in Headers */,
+				FE6405B71D5477B100652BAC /* NSObject+VDPerform.h in Headers */,
+				FE6405AF1D5476EA00652BAC /* NSObject+VDClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405AB1D5476C500652BAC /* objcObject.podspec in Resources */,
+				FE6405AA1D5476C500652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405B41D54773D00652BAC /* NSObject+VDSharedInstance.m in Sources */,
+				FE6405B01D5476EA00652BAC /* NSObject+VDClass.m in Sources */,
+				FE6405B81D5477B100652BAC /* NSObject+VDPerform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
